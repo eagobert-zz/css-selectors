@@ -5,4 +5,11 @@ header {
 
 header ul {
     display: inline-flex;
+    list-style-type: none;
+}
+
+header li {
+    justify-content: space-around;
+    padding: 5px;
+
 }
