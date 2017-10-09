@@ -13,14 +13,13 @@ header li {
     padding: 5px;
 }
 
-a span {
-    color: grey;
-}
-
-a .disabled {
+li > a {
     color: purple;
 }
 
+li > span {
+    color: grey;
+}
 a .active {
     color: yellow;
 }
