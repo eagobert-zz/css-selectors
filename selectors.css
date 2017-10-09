@@ -24,3 +24,18 @@ a .active {
     color: yellow;
 }
 
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.red + h4 {
+    background-color: red;
+}
+
+.blue + h4 {
+    background-color: blue;
+}
