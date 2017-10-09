@@ -11,5 +11,16 @@ header ul {
 header li {
     justify-content: space-around;
     padding: 5px;
+}
 
+a span {
+    color: grey;
+}
+
+a .disabled {
+    color: purple;
+}
+
+a .active {
+    color: yellow;
 }
