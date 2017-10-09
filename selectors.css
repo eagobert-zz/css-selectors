@@ -13,13 +13,15 @@ header li {
     padding: 5px;
 }
 
-li > a {
+li .disabled {
+    color: grey;
+}
+
+a .disabled,
+a.disabled {
     color: purple;
 }
 
-li > span {
-    color: grey;
-}
 a .active {
     color: yellow;
 }
@@ -38,4 +40,18 @@ a .active {
 
 .blue + h4 {
     background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px solid goldenrod;
+    border-radius: 25%;    
+}
+
+.promo {
+    color: gold;
+
+}
+
+input[type = text] {
+    height: 25px;
 }
